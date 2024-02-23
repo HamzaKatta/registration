@@ -1,0 +1,58 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-decoration:none ;
+}
+
+.container
+{
+    padding: 20px;
+    margin: 20px;
+}
+h1 { color: rgb(49, 182, 37);}
+
+input {
+    border-radius: 5px;
+    font-size: 17px;
+    background-color: rgb(229, 231, 233);
+    margin: 8px;
+    padding: 8px;
+    width: 210px;
+    cursor: pointer;
+    
+}
+
+
+a 
+{
+    color: white;
+    background-color: rgb(233, 85, 85);
+    margin: 50px;
+    padding: 5px 15px ;
+    border-radius: 5px;
+     
+}
+
+a:hover
+{
+    background-color: red;
+
+}
+
+.login , .register 
+{
+    color: white;
+    font-size: larger;
+    background-color:rgb(2, 163, 77) ;
+    border: 1px solid rgb(1, 77, 36);
+
+}
+input[type='submit']:hover{
+    transition: 1.5s;
+    background-color: rgb(198, 245, 68);
+    color: black;
+}
